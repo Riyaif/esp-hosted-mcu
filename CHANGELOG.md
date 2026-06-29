@@ -1,5 +1,7 @@
 # Unreleased - Main Branch
 
+- added `esp_wifi_disable_pmf_config()` support (host ↔ co-processor RPC); previously returned `ESP_ERR_NOT_SUPPORTED`
+
 # Releases
 
 # $${\color{green} \text{2.12.9}}$$
