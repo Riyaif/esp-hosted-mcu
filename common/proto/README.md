@@ -35,9 +35,7 @@ For this, third party software for protobuf C compiler is needed to be installed
 
 `protoc --c_out` always needs the `protoc-gen-c` plugin from protobuf-c, so both protoc and protobuf-c must be present (on macOS these are separate Homebrew formulas, hence both are listed above).
 
-`protoc` command should be available once installed (`protoc-c` still works but is deprecated).
-
-This software might only be needed on development environment, Once esp_hosted_rpc.pb-c.c & esp_hosted_rpc.pb-c.h files are generated, could also be uninstalled.
+This software might only be needed on development environment, Once esp_hosted_rpc.pb-c.c & esp_hosted_rpc.pb-c.h files are generated, could also be uninstalled (no more needed).
 
 ##### Steps to generate
 ```sh
